@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="m-0 p-0 box-border">
+    <header class="grid grid-cols-3 items-center px-4 py-4 border-gray-200">
+      <div class="flex items-center">
+        <img src="/assests/Menu.png" alt="Menu" class="w-6 h-6" />
+      </div>
+
+      <div class="flex items-center justify-center gap-2">
+        <img src="/assests/Group.png" alt="Logo" class="w-[18px] h-[18px]" />
+        <h2 class="text-[#C92071] font-bold text-lg whitespace-nowrap">
+          Digital Store
+        </h2>
+      </div>
+
+      <div class="flex items-center justify-end gap-4">
+        <img src="/assests/Search.png" alt="Buscar" class="w-5 h-5" />
+        <img src="/assests/icone-carrinho.png" alt="Carrinho" class="w-7 h-6" />
+      </div>
+    </header>
+    <section class="w-[310px] px-6 py-3 bg-white">
+      <div class="flex items-center justify-between mb-4">
+        <h3 class="text-[16px] font-[700]">Filtrar por</h3>
+        <img
+          src="../assests/icone-fechar.png"
+          alt="fechar"
+          class="w-3 h-3 cursor-pointer"
+        />
+      </div>
+      <div class="border-b border-gray-400 mb-5"></div>
+
+      <form action="" class="flex flex-col">
+        <div class="mb-3">
+          <h3 class="text-[14px] font-[700] mb-3">Marca</h3>
+          <div class="flex items-center gap-2 mb-2">
+            <input
+              type="checkbox"
+              id="adiddas"
+              name="adiddas"
+              value="adiddas"
+              class="accent-[#C92071] w-[22px] h-[22px] rounded-[2px]"
+            />
+            <label for="adiddas" class="text-[14px] font-[500]">Adiddas</label>
+          </div>
+          <div class="flex items-center gap-2 mb-2">
+            <input
+              type="checkbox"
+              id="calenciaga"
+              name="calenciaga"
+              value="calenciaga"
+              class="accent-[#C92071] w-[22px] h-[22px] rounded-[2px]"
+            />
+            <label for="calenciaga" class="text-[14px] font-[500]"
+              >Calenciaga</label
+            >
+          </div>
+          <div class="flex items-center gap-2 mb-2">
+            <input
+              type="checkbox"
+              id="k-swiss"
+              name="k-swiss"
+              value="k-swiss"
+              class="accent-[#C92071] w-[22px] h-[22px] rounded-[2px]"
+            />
+            <label for="k-swiss" class="text-[14px] font-[500]">K-Swiss</label>
+          </div>
+          <div class="flex items-center gap-2 mb-2">
+            <input
+              type="checkbox"
+              id="nike"
+              name="nike"
+              value="nike"
+              class="accent-[#C92071] w-[22px] h-[22px] rounded-[2px]"
+            />
+            <label for="nike" class="text-[14px] font-[500]">Nike</label>
+          </div>
+          <div class="flex items-center gap-2 mb-2">
+            <input
+              type="checkbox"
+              id="puma"
+              name="puma"
+              value="puma"
+              class="accent-[#C92071] w-[22px] h-[22px] rounded-[2px]"
+            />
+            <label for="puma" class="text-[14px] font-[500]">Puma</label>
+          </div>
+        </div>
+        <div class="mb-3">
+          <h3 class="text-[14px] font-[700] mb-3">Categoria</h3>
+          <div class="flex items-center gap-2 mb-2">
+            <input
+              type="checkbox"
+              id="esporte"
+              name="esporte"
+              value="esporte"
+              class="accent-[#C92071] w-[22px] h-[22px] rounded-[2px]"
+            />
+            <label for="esporte" class="text-[14px] font-[500]"
+              >Esporte e lazer</label
+            >
+          </div>
+          <div class="flex items-center gap-2 mb-2">
+            <input
+              type="checkbox"
+              id="casual"
+              name="casual"
+              value="casual"
+              class="accent-[#C92071] w-[22px] h-[22px] rounded-[2px]"
+            />
+            <label for="casual" class="text-[14px] font-[500]">Casual</label>
+          </div>
+          <div class="flex items-center gap-2 mb-2">
+            <input
+              type="checkbox"
+              id="utilitario"
+              name="utilitario"
+              value="utilitario"
+              class="accent-[#C92071] w-[22px] h-[22px] rounded-[2px]"
+            />
+            <label for="utilitario" class="text-[14px] font-[500]"
+              >Utilitário</label
+            >
+          </div>
+          <div class="flex items-center gap-2 mb-2">
+            <input
+              type="checkbox"
+              id="corrida"
+              name="corrida"
+              value="corrida"
+              class="accent-[#C92071] w-[22px] h-[22px] rounded-[2px]"
+            />
+            <label for="corrida" class="text-[14px] font-[500]">Corrida</label>
+          </div>
+        </div>
+        <div class="mb-3">
+          <h3 class="text-[14px] font-[700] mb-3">Genero</h3>
+          <div class="flex items-center gap-2 mb-2">
+            <input
+              type="checkbox"
+              id="masculino"
+              name="masculino"
+              value="masculino"
+              class="accent-[#C92071] w-[22px] h-[22px] rounded-[2px]"
+            />
+            <label for="masculino" class="text-[14px] font-[500]"
+              >Masculino</label
+            >
+          </div>
+          <div class="flex items-center gap-2 mb-2">
+            <input
+              type="checkbox"
+              id="feminino"
+              name="feminino"
+              value="feminino"
+              class="accent-[#C92071] w-[22px] h-[22px] rounded-[2px]"
+            />
+            <label for="feminino" class="text-[14px] font-[500]"
+              >Feminino</label
+            >
+          </div>
+          <div class="flex items-center gap-2 mb-2">
+            <input
+              type="checkbox"
+              id="unisex"
+              name="unisex"
+              value="unisex"
+              class="accent-[#C92071] w-[22px] h-[22px] rounded-[2px]"
+            />
+            <label for="unisex" class="text-[14px] font-[500]">Unisex</label>
+          </div>
+        </div>
+        <div class="mb-3">
+          <h3 class="text-[14px] font-[700] mb-3">Estado</h3>
+          <div class="flex items-center gap-2 mb-2">
+            <input
+              type="radio"
+              id="novo"
+              name="estado"
+              value="novo"
+              class="accent-[#C92071] w-[22px] h-[22px] border"
+            />
+            <label for="novo" class="text-[14px] font-[500]">Novo</label>
+          </div>
+          <div class="flex items-center gap-2 mb-2">
+            <input
+              type="radio"
+              id="usado"
+              name="estado"
+              value="usado"
+              class="accent-[#C92071] w-[22px] h-[22px] rounded-[2px] border"
+            />
+            <label for="usado" class="text-[14px] font-[500]">Usado</label>
+          </div>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
