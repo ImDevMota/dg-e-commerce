@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="">
+    <section class="flex items-center justify-center tracking-[0.5px]">
+      <div class="w-[90%]">
+        <h2>Finalizar Compra</h2>
+
+        <div>
+          <h3>Informações Pessoais</h3>
+          <hr />
+
+          <div>
+            <p>Nome Completo *</p>
+            <input type="text" placeholder="Insira seu nome" />
+          </div>
+
+          <div>
+            <p>CPF *</p>
+            <input type="text" placeholder="Insira seu CPF" />
+          </div>
+
+          <div>
+            <p>E-mail *</p>
+            <input type="text" placeholder="Insira seu email" />
+          </div>
+
+          <div>
+            <p>Celular *</p>
+            <input type="text" placeholder="Insira seu celular" />
+          </div>
+        </div>
+
+        <div>
+          <h3>Informações de Entrega</h3>
+          <hr />
+
+          <div>
+            <p>Endereço *</p>
+            <input type="text" placeholder="Insira seu endereço" />
+          </div>
+
+          <div>
+            <p>Bairro *</p>
+            <input type="text" placeholder="Insira seu bairro" />
+          </div>
+
+          <div>
+            <p>Cidade *</p>
+            <input type="text" placeholder="Insira sua cidade" />
+          </div>
+
+          <div>
+            <p>CEP *</p>
+            <input type="text" placeholder="Insira seu CEP" />
+          </div>
+
+          <div>
+            <p>Complemento *</p>
+            <input type="text" placeholder="Insira complemento" />
+          </div>
+        </div>
+
+        <div>
+          <h3>Informações de Pagamento</h3>
+          <hr />
+
+          <div class="flex flex-col">
+            <p>Forma de Pagamento</p>
+
+            <div class="flex flex-row items-center gap-x-3">
+              <div
+                class="w-[22px] h-[22px] flex items-center justify-center rounded-full border-[1px] border-[#C92071]"
+              >
+                <button
+                  class="bg-[#C92071] w-[14px] h-[14px] rounded-full"
+                ></button>
+              </div>
+
+              <p>Cartão de Crédito</p>
+            </div>
+
+            <div class="flex flex-row items-center gap-x-3 mt-[1rem]">
+              <div
+                class="w-[22px] h-[22px] flex items-center justify-center rounded-full border-[1px] border-[#666666]"
+              >
+                <button class="w-[14px] h-[14px] rounded-full"></button>
+              </div>
+
+              <p>Boleto Bancário</p>
+            </div>
+
+            <div>
+              <p>Nome do Cartão *</p>
+              <input type="text" placeholder="Insira nome do Cartão" />
+            </div>
+
+            <div>
+              <p>Data o Número do Cartão *</p>
+              <input type="text" placeholder="Insira número do Cartão" />
+            </div>
+
+            <div>
+              <p>Data de validade do Cartão *</p>
+              <input type="text" placeholder="Insira a validade do Cartão" />
+            </div>
+
+            <div>
+              <p>CVV *</p>
+              <input type="text" placeholder="CVV *" />
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3>RESUMO</h3>
+          <hr />
+
+          <div class="w-[255px] h-[116px] gap-[20px] flex justify-start">
+            <div
+              class="bg-[#E2E3FF] w-[71.18px] h-[58px] rounded-[2.67px] flex items-center justify-center"
+            >
+              <img
+                src="/assets/tenis-nike-revolution.png"
+                alt="Tênis"
+                class="w-[50.63px] h-[25.19]"
+              />
+            </div>
+            <div class="w-[184px] h-[116px] text-[#1F1F1F]">
+              <p class="font-[700] text-[14px]">
+                Tênis Nike Revolution <br />
+                6 Next Nature <br />
+                Masculino
+              </p>
+            </div>
+          </div>
+
+          <hr />
+
+          <div>
+            <div class="flex justify-between mb-2 p-1">
+              <p class="text-[#8F8F8F] font-[500]">Subtotal:</p>
+              <p class="text-[#1F1F1F] font-[500]">R$ 219,00</p>
+            </div>
+            <div class="flex justify-between mb-2 p-1">
+              <p class="text-[#8F8F8F] font-[500]">Frete:</p>
+              <p class="text-[#1F1F1F] font-[500]">R$ 0,00</p>
+            </div>
+            <div class="flex justify-between mb-3 p-1">
+              <p class="text-[#8F8F8F] font-[500]">Desconto:</p>
+              <p class="text-[#1F1F1F] font-[500]">R$ 30,00</p>
+            </div>
+
+            <div class="flex flex-col">
+              <div class="flex flex-row">
+                <h2>Total</h2>
+                <h2>R$ 219,00</h2>
+              </div>
+              <div>
+                <p class="text-end text-[#8F8F8F] mb-1">
+                  ou 10x de R$ 21,00 sem juros
+                </p>
+              </div>
+            </div>
+
+            <button>Realizar Pagamento</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <div class="flex flex-col">
+          <div class="flex flex-row">
+            <h2>Total</h2>
+            <h2>R$ 219,00</h2>
+          </div>
+          <div>
+            <p class="text-end text-[#8F8F8F] mb-1">
+              ou 10x de R$ 21,00 sem juros
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
