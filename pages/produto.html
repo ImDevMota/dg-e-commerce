@@ -3,10 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product</title>
+    <title>Produto</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="">
+    <header class="grid grid-cols-3 items-center px-4 py-4 border-gray-200">
+      <div class="flex items-center">
+        <img src="/assets/Menu.png" alt="Menu" class="w-6 h-6" />
+      </div>
+
+      <div class="flex items-center justify-center gap-2">
+        <img src="/assets/Group.png" alt="Logo" class="w-[18px] h-[18px]" />
+        <h2 class="text-[#C92071] font-bold text-lg whitespace-nowrap">
+          Digital Store
+        </h2>
+      </div>
+
+      <div class="flex items-center justify-end gap-4">
+        <img src="/assets/Search.png" alt="Buscar" class="w-5 h-5" />
+        <img src="/assets/icone-carrinho.png" alt="Carrinho" class="w-7 h-6" />
+      </div>
+    </header>
+
     <section
       class="flex items-center justify-center tracking-[0.5px] bg-[#F9F8FE]"
     >
@@ -297,5 +315,170 @@
         </div>
       </div>
     </section>
+
+    <section
+      class="bg-[#f8f8f8] w-full flex items-center justify-center pb-[5.5rem]"
+    >
+      <!-- div avó -->
+      <div class="w-[90%] flex flex-col items-center justify-center">
+        <!-- div titulo -->
+        <div
+          class="flex items-center justify-center gap-x-[4rem] flex-row w-full"
+        >
+          <h3
+            class="text-start sm:text-center text-[16px] sm:text-[24px] font-[700] text-[#474747] tracking-wider sm:tracking-[0.75px]"
+          >
+            Coleções em destaque
+          </h3>
+
+          <!-- div ver todos -> -->
+          <div class="flex flex-row gap-x-[0.5rem]">
+            <a class="text-[#c92071] text-[14px] font-[500]" href="#"
+              >Ver todos</a
+            >
+            <img
+              class="w-[16px] h-[9px] mt-[0.45rem]"
+              src="../assets/seta-ver-todos.png"
+              alt="seta direita"
+            />
+          </div>
+        </div>
+
+        <!-- div container produtos -->
+        <div
+          class="flex flex-row items-center justify-center gap-x-[0.4rem] w-full mt-[1rem]"
+        >
+          <!-- div produtos -->
+          <div class="flex flex-col w-[10.18rem]">
+            <!-- div texto tênis -->
+            <div
+              class="bg-white h-[11.19rem] flex flex-col relative rounded-sm"
+            >
+              <h3
+                class="absolute top-[0.85rem] bg-[#E7FF86] w-fit rounded-2xl px-[0.96rem] py-[0.35rem] text-[14px] text-[#474747] font-bold ml-[8px]"
+              >
+                30% OFF
+              </h3>
+              <img
+                class="w-[124.85px] flex self-center mt-[1.5rem]"
+                src="../assets/tenis-k-swiss.png"
+                alt="tenis-produto"
+              />
+            </div>
+            <!-- div imagem -->
+            <div class="flex flex-col mt-[0.6rem]">
+              <p class="text-[#8f8f8f] font-[700]">Tênis</p>
+              <p class="text-[#474747] font-[500]">K-Swiss V8 - Mascu...</p>
+              <!-- div preços -->
+              <div class="flex flex-row">
+                <p class="ml-[0.1rem] line-through text-[#8f8f8f] font-[400]">
+                  &nbsp;$200&nbsp;
+                </p>
+                <p class="ml-[0.3rem] font-[700] text-[#1f1f1f]">$100</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col w-[10.18rem]">
+            <!-- div texto tênis -->
+            <div
+              class="bg-white h-[11.19rem] flex flex-col relative rounded-sm"
+            >
+              <h3
+                class="absolute top-[0.85rem] bg-[#E7FF86] w-fit rounded-2xl px-[0.96rem] py-[0.35rem] text-[14px] text-[#474747] font-bold ml-[8px]"
+              >
+                30% OFF
+              </h3>
+              <img
+                class="w-[124.85px] flex self-center mt-[1.5rem]"
+                src="../assets/tenis-k-swiss.png"
+                alt="tenis-produto"
+              />
+            </div>
+            <!-- div imagem -->
+            <div class="flex flex-col mt-[0.6rem]">
+              <p class="text-[#8f8f8f] font-[700]">Tênis</p>
+              <p class="text-[#474747] font-[500]">K-Swiss V8 - Mascu...</p>
+              <!-- div preços -->
+              <div class="flex flex-row">
+                <p class="ml-[0.1rem] line-through text-[#8f8f8f] font-[400]">
+                  &nbsp;$200&nbsp;
+                </p>
+                <p class="ml-[0.3rem] font-[700] text-[#1f1f1f]">$100</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
+
+  <footer
+    class="bg-[#1F1F1F] text-white flex items-center justify-center py-10 w-full"
+  >
+    <!-- Container fixo -->
+    <div
+      class="w-[75%] shrink-0 flex flex-col items-center justify-center box-border"
+    >
+      <!-- Logo e descrição -->
+      <div class="mb-6 w-full box-border">
+        <div class="flex items-center justify-start gap-2 text-xl font-bold">
+          <img src="assets/dgicon.png" alt="" />
+          <span class="text-[24.4px] font-[600]">Digital Store</span>
+        </div>
+        <p class="text-white text-[14px] mt-5 leading-snug tracking-tight">
+          Lorem ipsum dolor sit amet, consectetur <br />
+          adipiscing elit, sed do eiusmod tempor <br />
+          incididunt ut labore et dolore.
+        </p>
+        <!-- Social icons -->
+        <div class="flex gap-6 mt-8 text-xl">
+          <a href="#"><img src="../assets/facebook-icon.png" alt="" /></a>
+          <a href="#"><img src="../assets/instagramicon.png" alt="" /></a>
+          <a href="#"><img src="../assets/xicon.png" alt="" /></a>
+        </div>
+      </div>
+
+      <!-- Grid de links -->
+      <div class="grid grid-cols-2 w-full gap-6 mb-10 mt-8">
+        <div>
+          <h3 class="mb-2 text-[18px] font-[600]">Informação</h3>
+          <ul class="space-y-1 text-white text-[16px] font-[400]">
+            <li><a href="#">Sobre Drip Store</a></li>
+            <li><a href="#">Segurança</a></li>
+            <li><a href="#">Wishlist</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Trabalhe conosco</a></li>
+            <li><a href="#">Meus Pedidos</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="mb-2 text-[18px] font-[600]">Informação</h3>
+          <ul class="space-y-1 text-white text-[16px] font-[400]">
+            <li><a href="#">Camisetas</a></li>
+            <li><a href="#">Calças</a></li>
+            <li><a href="#">Bonés</a></li>
+            <li><a href="#">Headphones</a></li>
+            <li><a href="#">Tênis</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Contato -->
+      <div class="mb-10 w-full">
+        <h3 class="mb-2 text-[18px] font-[600]">Contato</h3>
+        <p class="text-white leading-loose text-[16px] font-[400]">
+          Av. Santos Dumont, 1510 - 1 andar -<br />
+          Aldeota, Fortaleza – CE, 60150-161
+        </p>
+        <p class="mt-8 text-white text-[16px] font-[400]">(85) 3051-3411</p>
+      </div>
+
+      <!-- Rodapé -->
+      <div
+        class="border-t-[0.5px] border-white/40 pt-4 text-center text-[13px] font-[400] text-white w-full"
+      >
+        @ 2025 Digital College
+      </div>
+    </div>
+  </footer>
 </html>

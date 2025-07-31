@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>Minhas Informações</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="">
+  <body>
     <header class="grid grid-cols-3 items-center px-4 py-4 border-gray-200">
       <div class="flex items-center">
         <img src="/assets/Menu.png" alt="Menu" class="w-6 h-6" />
@@ -25,64 +27,64 @@
       </div>
     </header>
 
-    <section
-      class="flex items-center justify-center bg-gradient-to-b from-[#B5B6F2] to-[#B5B6F2]/70 py-[3.5rem]"
-    >
-      <div
-        class="w-[85%] bg-white flex flex-col px-[2rem] py-[1.5rem] rounded-md mb-[1rem]"
-      >
-        <h2 class="text-[22px] tracking-[2px] font-[700] text-center">
-          Acesse sua conta
-        </h2>
-        <p
-          class="text-[15px] tracking-[0.25px] font-[400] text-center text-[#474747]"
+    <section class="bg-[#f9f8fe]">
+      <div class="w-[90%] mx-auto mt-1 p-4 flex flex-col">
+        <div
+          class="bg-white flex flex-col rounded-[4px] mt-[20px] mb-[40px] w-[315px] h-[466px] gap-[20px] p-[30px]"
         >
-          Novo cliente? Então registre-se
-          <a href="#" class="underline">aqui</a>
-        </p>
-
-        <div class="flex flex-col mt-[1.5rem]">
-          <p class="text-[12px] font-[700] tracking-[0.75px] text-[#474747]">
-            Login *
-          </p>
-          <input
-            type="text"
-            placeholder="Insira seu login ou email"
-            class="bg-[#F8F8F8] rounded-md px-[0.7rem] py-[1rem] text-[16px] tracking-[0.75px] font-[400] mt-[0.5rem]"
-          />
-        </div>
-
-        <div class="flex flex-col mt-[1.3rem]">
-          <p class="text-[12px] font-[700] tracking-[0.75px] text-[#474747]">
-            Senha *
-          </p>
-          <input
-            type="text"
-            placeholder="Insira sua senha"
-            class="bg-[#F8F8F8] rounded-md px-[0.7rem] py-[1rem] text-[16px] tracking-[0.75px] font-[400] mt-[0.5rem]"
-          />
-        </div>
-
-        <a
-          href="#"
-          class="underline text-[14px] font-[500] tracking-[0.25px] text-[#474747] mt-[1.5rem]"
-          >Esqueci minha senha</a
-        >
-
-        <button
-          class="bg-[#C92071] px-[0.7rem] py-[0.75rem] text-white text-[16px] font-[700] tracking-[0.75px] rounded-lg mt-[1.5rem]"
-        >
-          Acessar Conta
-        </button>
-
-        <div class="w-full flex flex-col items-center mt-[1.5rem]">
-          <p class="text-[14px] font-[500] tracking-[0.25px] text-[#474747]">
-            Ou faça login com
-          </p>
-
-          <div class="flex flex-row gap-x-6 mt-[1.5rem]">
-            <img src="../assets/gmail-icon.svg" alt="" />
-            <img src="../assets/facebook-icon.svg" alt="" />
+          <div class="flex justify-between items-center">
+            <h3 class="text-14px text-[#474747] font-[700]">
+              Minhas informações
+            </h3>
+            <p
+              class="text-[14px] font-[500] text-[#C92071] border-b-[1px] border-[#C92071]"
+            >
+              Editar
+            </p>
+          </div>
+          <hr class="border-[#CCCCCC]" />
+          <div class="flex flex-col gap-[10px]">
+            <h2 class="text-[16px] text-[#474747] font-[700]">
+              Informações Pessoais
+            </h2>
+            <div class="flex text-[14px] font-[500] gap-[10px]">
+              <p class="text-[#8F8F8F]">Nome:</p>
+              <p class="text-[#1F1F1F]">Francisco Antonio Pereira</p>
+            </div>
+            <div class="flex text-[14px] font-[500] gap-[10px]">
+              <p class="text-[#8F8F8F]">CPF:</p>
+              <p class="text-[#1F1F1F]">123485913-35</p>
+            </div>
+            <div class="flex text-[14px] font-[500] gap-[10px]">
+              <p class="text-[#8F8F8F]">Email:</p>
+              <p class="text-[#1F1F1F]">francisco@gmail.com</p>
+            </div>
+            <div class="flex text-[14px] font-[500] gap-[10px]">
+              <p class="text-[#8F8F8F]">Celular:</p>
+              <p class="text-[#1F1F1F]">(85) 5555-5555</p>
+            </div>
+          </div>
+          <hr class="border-[#CCCCCC]" />
+          <div class="flex flex-col gap-[10px]">
+            <h2 class="text-[16px] text-[#474747] font-[700]">
+              Informações de Entrega
+            </h2>
+            <div class="flex text-[14px] font-[500] gap-[10px]">
+              <p class="text-[#8F8F8F]">Endereço:</p>
+              <p class="text-[#1F1F1F]">Rua João Pessoa, 333</p>
+            </div>
+            <div class="flex text-[14px] font-[500] gap-[10px]">
+              <p class="text-[#8F8F8F]">Bairro:</p>
+              <p class="text-[#1F1F1F]">Centro</p>
+            </div>
+            <div class="flex text-[14px] font-[500] gap-[10px]">
+              <p class="text-[#8F8F8F]">Cidade:</p>
+              <p class="text-[#1F1F1F]">Fortaleza, Ceará</p>
+            </div>
+            <div class="flex text-[14px] font-[500] gap-[10px]">
+              <p class="text-[#8F8F8F]">CEP:</p>
+              <p class="text-[#1F1F1F]">433-8800</p>
+            </div>
           </div>
         </div>
       </div>

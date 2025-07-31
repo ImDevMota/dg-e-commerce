@@ -7,12 +7,33 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <section class="flex items-center justify-center tracking-[0.5px] bg-[#F9F8FE] pb-[6rem]">
+    <header class="grid grid-cols-3 items-center px-4 py-4 border-gray-200">
+      <div class="flex items-center">
+        <img src="/assets/Menu.png" alt="Menu" class="w-6 h-6" />
+      </div>
+
+      <div class="flex items-center justify-center gap-2">
+        <img src="/assets/Group.png" alt="Logo" class="w-[18px] h-[18px]" />
+        <h2 class="text-[#C92071] font-bold text-lg whitespace-nowrap">
+          Digital Store
+        </h2>
+      </div>
+
+      <div class="flex items-center justify-end gap-4">
+        <img src="/assets/Search.png" alt="Buscar" class="w-5 h-5" />
+        <img src="/assets/icone-carrinho.png" alt="Carrinho" class="w-7 h-6" />
+      </div>
+    </header>
+
+    <section
+      class="flex items-center justify-center tracking-[0.5px] bg-[#F9F8FE] pb-[6rem]"
+    >
       <div class="w-[315px] flex flex-col">
-        
         <!-- Título -->
         <div class="w-full max-w-[315px] mt-[40px]">
-          <h2 class="text-[22px] leading-[34px] font-bold tracking-[2px] text-center">
+          <h2
+            class="text-[22px] leading-[34px] font-bold tracking-[2px] text-center"
+          >
             Criar Conta
           </h2>
         </div>
@@ -130,13 +151,20 @@
               class="bg-[#F8F8F8] px-[0.7rem] py-[1rem] mt-[0.5rem] rounded-md text-[16px] font-[400]"
             />
           </div>
-
-          
         </div>
         <label class="flex items-start gap-x-2 mt-[1.5rem]">
-          <input type="checkbox" class="w-[22px] h-[22px] mt-[0.05rem] accent-pink-500"/>
-          
-          <p class=" text-[#474747] text-[14px] leading-[22px] tracking-[0.25px] font-medium">Quero receber por email ofertas e novidades das lojas da Digital Store. A frequência de envios pode variar de acordo com a interação do cliente.</p>
+          <input
+            type="checkbox"
+            class="w-[22px] h-[22px] mt-[0.05rem] accent-pink-500"
+          />
+
+          <p
+            class="text-[#474747] text-[14px] leading-[22px] tracking-[0.25px] font-medium"
+          >
+            Quero receber por email ofertas e novidades das lojas da Digital
+            Store. A frequência de envios pode variar de acordo com a interação
+            do cliente.
+          </p>
         </label>
         <button
           class="bg-[#C92071] px-[0.7rem] py-[0.75rem] text-white text-[16px] font-[700] tracking-[0.75px] rounded-lg mt-[2rem]"
@@ -146,4 +174,74 @@
       </div>
     </section>
   </body>
+
+  <footer
+    class="bg-[#1F1F1F] text-white flex items-center justify-center py-10 w-full"
+  >
+    <!-- Container fixo -->
+    <div
+      class="w-[75%] shrink-0 flex flex-col items-center justify-center box-border"
+    >
+      <!-- Logo e descrição -->
+      <div class="mb-6 w-full box-border">
+        <div class="flex items-center justify-start gap-2 text-xl font-bold">
+          <img src="assets/dgicon.png" alt="" />
+          <span class="text-[24.4px] font-[600]">Digital Store</span>
+        </div>
+        <p class="text-white text-[14px] mt-5 leading-snug tracking-tight">
+          Lorem ipsum dolor sit amet, consectetur <br />
+          adipiscing elit, sed do eiusmod tempor <br />
+          incididunt ut labore et dolore.
+        </p>
+        <!-- Social icons -->
+        <div class="flex gap-6 mt-8 text-xl">
+          <a href="#"><img src="../assets/facebook-icon.png" alt="" /></a>
+          <a href="#"><img src="../assets/instagramicon.png" alt="" /></a>
+          <a href="#"><img src="../assets/xicon.png" alt="" /></a>
+        </div>
+      </div>
+
+      <!-- Grid de links -->
+      <div class="grid grid-cols-2 w-full gap-6 mb-10 mt-8">
+        <div>
+          <h3 class="mb-2 text-[18px] font-[600]">Informação</h3>
+          <ul class="space-y-1 text-white text-[16px] font-[400]">
+            <li><a href="#">Sobre Drip Store</a></li>
+            <li><a href="#">Segurança</a></li>
+            <li><a href="#">Wishlist</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Trabalhe conosco</a></li>
+            <li><a href="#">Meus Pedidos</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="mb-2 text-[18px] font-[600]">Informação</h3>
+          <ul class="space-y-1 text-white text-[16px] font-[400]">
+            <li><a href="#">Camisetas</a></li>
+            <li><a href="#">Calças</a></li>
+            <li><a href="#">Bonés</a></li>
+            <li><a href="#">Headphones</a></li>
+            <li><a href="#">Tênis</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Contato -->
+      <div class="mb-10 w-full">
+        <h3 class="mb-2 text-[18px] font-[600]">Contato</h3>
+        <p class="text-white leading-loose text-[16px] font-[400]">
+          Av. Santos Dumont, 1510 - 1 andar -<br />
+          Aldeota, Fortaleza – CE, 60150-161
+        </p>
+        <p class="mt-8 text-white text-[16px] font-[400]">(85) 3051-3411</p>
+      </div>
+
+      <!-- Rodapé -->
+      <div
+        class="border-t-[0.5px] border-white/40 pt-4 text-center text-[13px] font-[400] text-white w-full"
+      >
+        @ 2025 Digital College
+      </div>
+    </div>
+  </footer>
 </html>

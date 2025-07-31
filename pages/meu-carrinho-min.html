@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Meu Carrinho</title>
+  </head>
+
+  <body>
+    <header class="grid grid-cols-3 items-center px-4 py-4 border-gray-200">
+      <div class="flex items-center">
+        <img src="/assets/Menu.png" alt="Menu" class="w-6 h-6" />
+      </div>
+
+      <div class="flex items-center justify-center gap-2">
+        <img src="/assets/Group.png" alt="Logo" class="w-[18px] h-[18px]" />
+        <h2 class="text-[#C92071] font-bold text-lg whitespace-nowrap">
+          Digital Store
+        </h2>
+      </div>
+
+      <div class="flex items-center justify-end gap-4">
+        <img src="/assets/Search.png" alt="Buscar" class="w-5 h-5" />
+        <img src="/assets/icone-carrinho.png" alt="Carrinho" class="w-7 h-6" />
+      </div>
+    </header>
+
+    <section class="bg-[#f9f8fe] pt-[1.5rem]">
+      <div class="w-[90%] mx-auto mt-1 p-4 flex flex-col">
+        <div
+          class="bg-white flex flex-col rounded-[4px] mt-[20px] mb-[10px] w-[315px] gap-[20px] p-[30px]"
+        >
+          <div class="flex items-center">
+            <h3 class="text-[#474747] font-[700] text-[14px] tracking-[0.75px]">
+              MEU CARRINHO
+            </h3>
+          </div>
+          <hr class="border-[#CCCCCC]" />
+          <div class="w-[255px] h-[116px] gap-[20px] flex justify-start">
+            <div
+              class="bg-[#E2E3FF] w-[71.18px] h-[58px] rounded-[2.67px] flex items-center justify-center"
+            >
+              <img
+                src="/assets/tenis-nike-revolution.png"
+                alt="Tênis"
+                class="w-[50.63px] h-[25.19px] object-cover"
+              />
+            </div>
+            <div class="w-[184px] h-[116px] text-[#1F1F1F]">
+              <p class="font-[700] text-[14px] w-[150px]">
+                Tênis Nike Revolution 6 Next Nature Masculino
+              </p>
+              <p class="text-[#8F8F8F] text-[12px] font-[500] mt-2">
+                Cor:
+                <span class="text-[#1F1F1F] text-[12px] font-[500]"
+                  >Vermelho / Branco</span
+                >
+              </p>
+              <p class="text-[#8F8F8F] text-[12px] font-[500]">
+                Tamanho:
+                <span class="text-[#1F1F1F] text-[12px] font-[500]">42</span>
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col w-[255px] gap-2">
+            <p class="text-[14px] text-[#474747] font-[500] tracking-[0.25px]">
+              QUANTIDADE
+            </p>
+            <div class="flex items-center justify-between">
+              <button
+                class="w-[80px] h-[35px] bg-white border border-gray-300 rounded"
+              >
+                –
+              </button>
+              <span class="text-[12px] text-[#474747] font-[700]">1</span>
+              <button
+                class="w-[80px] h-[35px] bg-white border border-gray-300 rounded"
+              >
+                +
+              </button>
+            </div>
+            <button
+              class="text-[14px] font-[400] text-[#474747] underline tracking-[0.75px]"
+            >
+              Remover item
+            </button>
+          </div>
+          <div class="flex w-[255px] items-center justify-between">
+            <p
+              class="flex w-[86px] text-[#474747] text-[14px] font-[500] tracking-[0.25px]"
+            >
+              UNITÁRIO
+            </p>
+            <div class="flex w-[170px] items-center justify-end">
+              <p
+                class="flex w-[80px] text-[#CCCCCC] text-[12px] font-[400] line-through tracking-[0.75px]"
+              >
+                R$ 219,00
+              </p>
+              <p class="flex text-[#474747] text-[16px] font-[700]">
+                R$ 219,00
+              </p>
+            </div>
+          </div>
+          <div class="flex w-[255px] items-center justify-between">
+            <p
+              class="flex w-[86px] text-[#474747] text-[14px] font-[500] tracking-[0.25px]"
+            >
+              TOTAL
+            </p>
+            <div class="flex w-[170px] items-center justify-end">
+              <p
+                class="flex w-[80px] text-[#CCCCCC] text-[12px] font-[400] line-through tracking-[0.75px]"
+              >
+                R$ 219,00
+              </p>
+              <p
+                class="flex text-[#474747] text-[16px] font-[700] tracking-[0.75px]"
+              >
+                R$ 219,00
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white px-6 py-4 w-full">
+      <div class="flex justify-between items-center mb-1">
+        <p class="text-[#1F1F1F] font-[700] text-[18px] tracking-[0.75px]">
+          Total
+        </p>
+        <p class="text-[#EE4266] font-[700] text-[18px] tracking-[0.75px]">
+          R$ 219,00
+        </p>
+      </div>
+      <p
+        class="text-[#8F8F8F] text-[12px] font-[500] text-end mb-4 tracking-[1px]"
+      >
+        ou 10x de R$ 21,00 sem juros
+      </p>
+      <button
+        class="bg-[#F6AA1C] flex items-center justify-center h-[40px] text-white font-[700] text-[14px] rounded-[8px] w-full py-3"
+      >
+        Continuar
+      </button>
+    </section>
+  </body>
+
+  <footer
+    class="bg-[#1F1F1F] text-white flex items-center justify-center py-10 w-full"
+  >
+    <!-- Container fixo -->
+    <div
+      class="w-[75%] shrink-0 flex flex-col items-center justify-center box-border"
+    >
+      <!-- Logo e descrição -->
+      <div class="mb-6 w-full box-border">
+        <div class="flex items-center justify-start gap-2 text-xl font-bold">
+          <img src="assets/dgicon.png" alt="" />
+          <span class="text-[24.4px] font-[600]">Digital Store</span>
+        </div>
+        <p class="text-white text-[14px] mt-5 leading-snug tracking-tight">
+          Lorem ipsum dolor sit amet, consectetur <br />
+          adipiscing elit, sed do eiusmod tempor <br />
+          incididunt ut labore et dolore.
+        </p>
+        <!-- Social icons -->
+        <div class="flex gap-6 mt-8 text-xl">
+          <a href="#"><img src="../assets/facebook-icon.png" alt="" /></a>
+          <a href="#"><img src="../assets/instagramicon.png" alt="" /></a>
+          <a href="#"><img src="../assets/xicon.png" alt="" /></a>
+        </div>
+      </div>
+
+      <!-- Grid de links -->
+      <div class="grid grid-cols-2 w-full gap-6 mb-10 mt-8">
+        <div>
+          <h3 class="mb-2 text-[18px] font-[600]">Informação</h3>
+          <ul class="space-y-1 text-white text-[16px] font-[400]">
+            <li><a href="#">Sobre Drip Store</a></li>
+            <li><a href="#">Segurança</a></li>
+            <li><a href="#">Wishlist</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Trabalhe conosco</a></li>
+            <li><a href="#">Meus Pedidos</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="mb-2 text-[18px] font-[600]">Informação</h3>
+          <ul class="space-y-1 text-white text-[16px] font-[400]">
+            <li><a href="#">Camisetas</a></li>
+            <li><a href="#">Calças</a></li>
+            <li><a href="#">Bonés</a></li>
+            <li><a href="#">Headphones</a></li>
+            <li><a href="#">Tênis</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Contato -->
+      <div class="mb-10 w-full">
+        <h3 class="mb-2 text-[18px] font-[600]">Contato</h3>
+        <p class="text-white leading-loose text-[16px] font-[400]">
+          Av. Santos Dumont, 1510 - 1 andar -<br />
+          Aldeota, Fortaleza – CE, 60150-161
+        </p>
+        <p class="mt-8 text-white text-[16px] font-[400]">(85) 3051-3411</p>
+      </div>
+
+      <!-- Rodapé -->
+      <div
+        class="border-t-[0.5px] border-white/40 pt-4 text-center text-[13px] font-[400] text-white w-full"
+      >
+        @ 2025 Digital College
+      </div>
+    </div>
+  </footer>
+</html>

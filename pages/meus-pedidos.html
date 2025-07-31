@@ -3,13 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Digital Store</title>
+    <title>Meus Pedidos</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <section class="w-full flex items-center justify-center bg-[#F9F8FE]">
+    <header class="grid grid-cols-3 items-center px-4 py-4 border-gray-200">
+      <div class="flex items-center">
+        <img src="/assets/Menu.png" alt="Menu" class="w-6 h-6" />
+      </div>
+
+      <div class="flex items-center justify-center gap-2">
+        <img src="/assets/Group.png" alt="Logo" class="w-[18px] h-[18px]" />
+        <h2 class="text-[#C92071] font-bold text-lg whitespace-nowrap">
+          Digital Store
+        </h2>
+      </div>
+
+      <div class="flex items-center justify-end gap-4">
+        <img src="/assets/Search.png" alt="Buscar" class="w-5 h-5" />
+        <img src="/assets/icone-carrinho.png" alt="Carrinho" class="w-7 h-6" />
+      </div>
+    </header>
+
+    <section
+      class="w-full flex items-center justify-center bg-[#F9F8FE] pt-[4rem] pb-[6rem]"
+    >
       <!-- div pai de todos -->
-      <div class="w-[90%] bg-white px-[2rem] rounded-sm">
+      <div
+        class="w-[315px] border-box shrink-0 bg-white px-[2rem] rounded-sm py-[2rem]"
+      >
         <h2 class="text-[14px] text-[#474747] font-[700] tracking-[0.75px]">
           Meus pedidos
         </h2>
@@ -27,7 +49,7 @@
                 class="flex items-center justify-center bg-[#E2E3FF] w-[71.2px] h-[58px] rounded-sm"
               >
                 <img
-                  src="../assets/tenis-nike-revolution.png"
+                  src="../assets/White-Sneakers-PNG-Clipart 2.png"
                   alt="tenis-produto"
                   class="w-[50.6px] h-[25.20px]"
                 />
@@ -77,7 +99,7 @@
                 class="flex items-center justify-center bg-[#E2E3FF] w-[71.2px] h-[58px] rounded-sm"
               >
                 <img
-                  src="../assets/tenis-nike-revolution.png"
+                  src="../assets/White-Sneakers-PNG-Clipart 2.png"
                   alt="tenis-produto"
                   class="w-[50.6px] h-[25.20px]"
                 />
@@ -127,7 +149,7 @@
                 class="flex items-center justify-center bg-[#E2E3FF] w-[71.2px] h-[58px] rounded-sm"
               >
                 <img
-                  src="../assets/tenis-nike-revolution.png"
+                  src="../assets/White-Sneakers-PNG-Clipart 2.png"
                   alt="tenis-produto"
                   class="w-[50.6px] h-[25.20px]"
                 />
@@ -177,7 +199,7 @@
                 class="flex items-center justify-center bg-[#E2E3FF] w-[71.2px] h-[58px] rounded-sm"
               >
                 <img
-                  src="../assets/tenis-nike-revolution.png"
+                  src="../assets/White-Sneakers-PNG-Clipart 2.png"
                   alt="tenis-produto"
                   class="w-[50.6px] h-[25.20px]"
                 />
@@ -227,7 +249,7 @@
                 class="flex items-center justify-center bg-[#E2E3FF] w-[71.2px] h-[58px] rounded-sm"
               >
                 <img
-                  src="../assets/tenis-nike-revolution.png"
+                  src="../assets/White-Sneakers-PNG-Clipart 2.png"
                   alt="tenis-produto"
                   class="w-[50.6px] h-[25.20px]"
                 />
@@ -266,4 +288,74 @@
       </div>
     </section>
   </body>
+
+  <footer
+    class="bg-[#1F1F1F] text-white flex items-center justify-center py-10 w-full"
+  >
+    <!-- Container fixo -->
+    <div
+      class="w-[75%] shrink-0 flex flex-col items-center justify-center box-border"
+    >
+      <!-- Logo e descrição -->
+      <div class="mb-6 w-full box-border">
+        <div class="flex items-center justify-start gap-2 text-xl font-bold">
+          <img src="assets/dgicon.png" alt="" />
+          <span class="text-[24.4px] font-[600]">Digital Store</span>
+        </div>
+        <p class="text-white text-[14px] mt-5 leading-snug tracking-tight">
+          Lorem ipsum dolor sit amet, consectetur <br />
+          adipiscing elit, sed do eiusmod tempor <br />
+          incididunt ut labore et dolore.
+        </p>
+        <!-- Social icons -->
+        <div class="flex gap-6 mt-8 text-xl">
+          <a href="#"><img src="../assets/facebook-icon.png" alt="" /></a>
+          <a href="#"><img src="../assets/instagramicon.png" alt="" /></a>
+          <a href="#"><img src="../assets/xicon.png" alt="" /></a>
+        </div>
+      </div>
+
+      <!-- Grid de links -->
+      <div class="grid grid-cols-2 w-full gap-6 mb-10 mt-8">
+        <div>
+          <h3 class="mb-2 text-[18px] font-[600]">Informação</h3>
+          <ul class="space-y-1 text-white text-[16px] font-[400]">
+            <li><a href="#">Sobre Drip Store</a></li>
+            <li><a href="#">Segurança</a></li>
+            <li><a href="#">Wishlist</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Trabalhe conosco</a></li>
+            <li><a href="#">Meus Pedidos</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="mb-2 text-[18px] font-[600]">Informação</h3>
+          <ul class="space-y-1 text-white text-[16px] font-[400]">
+            <li><a href="#">Camisetas</a></li>
+            <li><a href="#">Calças</a></li>
+            <li><a href="#">Bonés</a></li>
+            <li><a href="#">Headphones</a></li>
+            <li><a href="#">Tênis</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Contato -->
+      <div class="mb-10 w-full">
+        <h3 class="mb-2 text-[18px] font-[600]">Contato</h3>
+        <p class="text-white leading-loose text-[16px] font-[400]">
+          Av. Santos Dumont, 1510 - 1 andar -<br />
+          Aldeota, Fortaleza – CE, 60150-161
+        </p>
+        <p class="mt-8 text-white text-[16px] font-[400]">(85) 3051-3411</p>
+      </div>
+
+      <!-- Rodapé -->
+      <div
+        class="border-t-[0.5px] border-white/40 pt-4 text-center text-[13px] font-[400] text-white w-full"
+      >
+        @ 2025 Digital College
+      </div>
+    </div>
+  </footer>
 </html>
